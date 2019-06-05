@@ -25,8 +25,13 @@ App using an API to show news data.
 
 ## Technologies
 
-* [Angular CLI v7.3.9](https://github.com/angular/angular-cli)
-* [Angular Material v7.3.7](https://material.angular.io/)
+* [Angular v8.0.0](https://angular.io/)
+
+* [Angular CLI v8.0.1](https://cli.angular.io/).
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+
+* [Angular Material v8.0.0](https://material.angular.io/)
 
 ## Setup
 
@@ -46,13 +51,13 @@ to follow
 
 ## Features
 
-* updated to the latest version of Angular, all dependencies up to date and conflicts resolved.
+* updated to the latest version of Angular 8, all dependencies up to date and conflicts resolved.
 
 ## Status & To-Do List
 
 * Status: compiles to display a grid of mat-cards with a side-menu and dashboard area.
 
-* To-Do: Add API service.module etc. A lot to do.
+* To-Do: Add API service.module etc. A lot to do. Remove complicated grid system and use for another angular app.
 
 ## Inspiration
 
@@ -65,6 +70,8 @@ A series of articles by [Ahmed Abdelsalam](https://medium.com/@geeksamu):
 [3. Using Angular Material with Angular 6](https://medium.com/@geeksamu/using-angular-material-with-angular-6-862a1c3d04b),
 
 [4. Deploy Angular 6 Application to Netlify](https://medium.com/@geeksamu/deploy-angular-6-application-to-netlify-60b39b9df61c)
+
+* The remaining articles 5 to 8 in the [Angular 6 Article Series](https://medium.com/@geeksamu/angular-6-article-series-8add9a89e91f) have not appeared.
 
 ## Contact
 
