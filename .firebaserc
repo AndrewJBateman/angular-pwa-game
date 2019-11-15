@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-pwa-game": {
+      "hosting": {
+        "myapp": [
+          "angular-pwa-game"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-pwa-game"
+  }
+}
