@@ -1,14 +1,11 @@
 {
   "targets": {
-    "angular-pwa-game": {
+    "angular-pwa-tictactoe": {
       "hosting": {
-        "myapp": [
-          "angular-pwa-game"
+        "angular-pwa-tictactoe": [
+          "angular-pwa-tictactoe"
         ]
       }
     }
-  },
-  "projects": {
-    "default": "angular-pwa-game"
   }
 }

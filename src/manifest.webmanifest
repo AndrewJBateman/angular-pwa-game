@@ -1,6 +1,6 @@
 {
-  "name": "angular-pwa-game",
-  "short_name": "angular-pwa-game",
+  "name": "angular-pwa-tictactoe",
+  "short_name": "angular-pwa-tictactoe",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
