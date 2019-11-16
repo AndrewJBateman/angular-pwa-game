@@ -1,27 +1,96 @@
-# AngularPwaTictactoe
+# Angular PWA TicTacToe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+* App using Angular 8 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 
-## Development server
+*** Note: to open web links in a new window use: _ctrl+click on link_**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Table of contents
 
-## Code scaffolding
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## General info
 
-## Build
+* Simple tictactoe game that shows a message when a player wins.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Firestore hosting used to make the game available on the web.
 
-## Running unit tests
+* [Angular service worker](https://angular.io/guide/service-worker-intro) added to manage app caching and help this to be a Progressive Web App (PWA).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshots
 
-## Running end-to-end tests
+![Example screenshot](./img/game.png).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies
 
-## Further help
+* [Angular v8.2.14](https://angular.io/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* [Angular CLI v8.3.19](https://cli.angular.io/).
+
+* [Nebular UI Customising](https://akveo.github.io/nebular/)]
+
++ [Angular Service Worker](https://github.com/angular/angular)
+
+* [Angular Firebase library](https://www.npmjs.com/package/@angular/fire)
+
+## Setup
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files.
+
+Run `ng build` to create the build file.
+
+See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
+
+## Code Examples
+
+* Code to calculate the winner, by Jeff Delaney at [Fireship.io](https://fireship.io/).
+
+```typescript
+calculateWinner() {
+    const lines = [
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6]
+    ];
+    for (let i = 0; i < lines.length; i++) {
+      const [a, b, c] = lines[i];
+      if (
+        this.squares[a] &&
+        this.squares[a] === this.squares[b] &&
+        this.squares[a] === this.squares[c]
+      ) {
+        return this.squares[a];
+      }
+    }
+    return null;
+  }
+```
+
+## Features
+
+* Game works offline thanks to the PWA service worker.
+
+## Status & To-Do List
+
+* Status: Working, deployed to [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+
+* To-Do: Improve lighthouse score (currently 85%).
+
+## Inspiration
+
+* [Fireship: Youtube tutorial 'Angular for Beginners - Let's build a Tic-Tac-Toe PWA'](https://www.youtube.com/watch?v=G0bBLvWXBvc)]
+
+## Contact
+
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
