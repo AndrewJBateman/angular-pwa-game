@@ -1,44 +1,47 @@
-# Angular PWA TicTacToe
+# :zap: Angular PWA TicTacToe
 
-* App using Angular 8 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* App using Angular 9 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular PWA TicTacToe](#zap-angular-pwa-tictactoe)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 * Simple tictactoe game that shows a message when a player wins.
 * Firestore hosting used to make the game available on the web.
 * [Angular service worker](https://angular.io/guide/service-worker-intro) added to manage app caching and help this to be a Progressive Web App (PWA).
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/game.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v9.1.0](https://angular.io/)
+* [Angular v9](https://angular.io/)
 * [Nebular UI Customising](https://akveo.github.io/nebular/)]
 * [Angular Service Worker](https://github.com/angular/angular)
 * [Angular Firebase library](https://www.npmjs.com/package/@angular/fire)
 
-## Setup
+## :floppy_disk: Setup
 
 * Install dependencies then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files.
 * Run `ng build` to create the build file.
 * See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
 
-## Code Examples
+## :computer: Code Examples
 
 * Code to calculate the winner, by Jeff Delaney at [Fireship.io](https://fireship.io/).
 
@@ -68,20 +71,20 @@ calculateWinner() {
   }
 ```
 
-## Features
+## :cool: Features
 
 * Game works offline thanks to the PWA service worker.
-* Updated to latest Angular v9.
+* Updated to latest Angular v9 and all dependencies updated.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working, deployed to [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 * To-Do: Improve lighthouse score (currently 85%).
 
-## Inspiration
+## :clap: Inspiration
 
 * [Fireship: Youtube tutorial 'Angular for Beginners - Let's build a Tic-Tac-Toe PWA'](https://www.youtube.com/watch?v=G0bBLvWXBvc)]
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
