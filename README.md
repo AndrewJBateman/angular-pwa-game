@@ -1,6 +1,6 @@
 # :zap: Angular PWA TicTacToe
 
-* App using Angular 9 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* App using Angular 10 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -37,8 +37,9 @@
 
 ## :floppy_disk: Setup
 
-* Install dependencies then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files.
-* Run `ng build` to create the build file.
+* Install dependencies then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files
+* Run `ng build` to create the build file
+* Run `firebase use --add` to link this app to firebase project already created, then `firebase deploy` to deploy app
 * See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
 
 ## :computer: Code Examples
@@ -74,7 +75,7 @@ calculateWinner() {
 ## :cool: Features
 
 * Game works offline thanks to the PWA service worker.
-* Updated to latest Angular v9 and all dependencies updated.
+* Updated to latest Angular v10 and all dependencies updated.
 
 ## :clipboard: Status & To-Do List
 
