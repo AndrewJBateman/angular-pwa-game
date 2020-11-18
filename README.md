@@ -1,6 +1,7 @@
 # :zap: Angular PWA TicTacToe
 
-* App using Angular 10 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* App using Angular 11 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* Tutorial code from [Jeff Delaney at Fireship](https://fireship.io/) - see [:clap: Inspiration](#clap-inspiration) below.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -30,8 +31,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Nebular UI Customising](https://akveo.github.io/nebular/)]
+* [Angular v11](https://angular.io/)
+* [Nebular UI Customising v6](https://akveo.github.io/nebular/)]
 * [Angular Service Worker](https://github.com/angular/angular)
 * [Angular Firebase library](https://www.npmjs.com/package/@angular/fire)
 
@@ -75,7 +76,7 @@ calculateWinner() {
 ## :cool: Features
 
 * Game works offline thanks to the PWA service worker.
-* Updated to latest Angular v10 and all dependencies updated.
+* Updated to latest Angular v11 and all dependencies updated.
 
 ## :clipboard: Status & To-Do List
 
