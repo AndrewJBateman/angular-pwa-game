@@ -1,9 +1,13 @@
 # :zap: Angular PWA TicTacToe
 
-* App using Angular 11 to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* App using Angular to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 * Tutorial code from [Jeff Delaney at Fireship](https://fireship.io/) - see [:clap: Inspiration](#clap-inspiration) below.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-pwa-game?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-pwa-game?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-pwa-game?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-pwa-game?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -17,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -31,10 +36,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
-* [Nebular UI Customising v6](https://akveo.github.io/nebular/)]
-* [Angular Service Worker](https://github.com/angular/angular)
-* [Angular Firebase library](https://www.npmjs.com/package/@angular/fire)
+* [Angular v12](https://angular.io/)
+* [Nebular UI Customising v7](https://akveo.github.io/nebular/)]
+* [Angular Service Worker v12](https://github.com/angular/angular)
+* [Angular Firebase library v8](https://www.npmjs.com/package/@angular/fire)
 
 ## :floppy_disk: Setup
 
@@ -87,6 +92,10 @@ calculateWinner() {
 
 * [Fireship: Youtube tutorial 'Angular for Beginners - Let's build a Tic-Tac-Toe PWA'](https://www.youtube.com/watch?v=G0bBLvWXBvc)]
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
