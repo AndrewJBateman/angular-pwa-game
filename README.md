@@ -43,7 +43,8 @@
 
 ## :floppy_disk: Setup
 
-* Install dependencies then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files
+* Install dependencies then run `ng serve` for a dev server.
+* Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files
 * Run `ng build` to create the build file
 * Run `firebase use --add` to link this app to firebase project already created, then `firebase deploy` to deploy app
 * See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
@@ -81,11 +82,11 @@ calculateWinner() {
 ## :cool: Features
 
 * Game works offline thanks to the PWA service worker.
-* Updated to latest Angular v11 and all dependencies updated.
+* Updated may 2021
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working, deployed to [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* Status: Error Property `_viewRepeater' is optional in type 'NbTable<T>' but required in type 'CdkTable<T>` - Nebula incompatibility issue - await soltion., older version deployed to [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
 * To-Do: Improve lighthouse score (currently 85%).
 
 ## :clap: Inspiration
