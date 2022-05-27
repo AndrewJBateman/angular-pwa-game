@@ -123,6 +123,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-pwa-tictactoe"
+  }
 }
