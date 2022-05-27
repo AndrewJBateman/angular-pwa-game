@@ -36,17 +36,18 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [Nebular UI Customising v7](https://akveo.github.io/nebular/)]
-* [Angular Service Worker v12](https://github.com/angular/angular)
-* [Angular Firebase library v8](https://www.npmjs.com/package/@angular/fire)
+* [Angular v14](https://angular.io/)
+* [Nebular UI Customising v9](https://akveo.github.io/nebular/)]
+* [Angular Service Worker v14](https://github.com/angular/angular)
+* [Angular Firebase library v9](https://www.npmjs.com/package/@angular/fire)
 
 ## :floppy_disk: Setup
 
-* Install dependencies then run `ng serve` for a dev server.
+* `npm i` to install dependencies
+* `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files
-* Run `ng build` to create the build file
-* Run `firebase use --add` to link this app to firebase project already created, then `firebase deploy` to deploy app
+* `ng build` to create the build file
+* `firebase use --add` to link this app to firebase project already created, then `firebase deploy` to deploy app
 * See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
 
 ## :computer: Code Examples
@@ -82,11 +83,10 @@ calculateWinner() {
 ## :cool: Features
 
 * Game works offline thanks to the PWA service worker.
-* Updated may 2021
 
 ## :clipboard: Status & To-Do List
 
-* Status: Error Property `_viewRepeater' is optional in type 'NbTable<T>' but required in type 'CdkTable<T>` - Nebula incompatibility issue - await soltion., older version deployed to [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
+* Status: Working
 * To-Do: Improve lighthouse score (currently 85%).
 
 ## :clap: Inspiration
