@@ -1,7 +1,7 @@
 # :zap: Angular PWA TicTacToe
 
 * App using Angular to show a tictactoe game that is deployed to Firestore at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/).
-* Tutorial code from [Jeff Delaney at Fireship](https://fireship.io/) - see [:clap: Inspiration](#clap-inspiration) below.
+* Tutorial code from [Jeff Delaney at Fireship](https://fireship.io/) - see [:clap: Inspiration](#clap-inspiration) below, updated to latest dependency versions
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-pwa-game?style=plastic)
@@ -12,16 +12,16 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular PWA TicTacToe](#zap-angular-pwa-tictactoe)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status \& To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -36,9 +36,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/)
-* [Nebular UI Customising v9](https://akveo.github.io/nebular/)]
-* [Angular Service Worker v14](https://github.com/angular/angular)
+* [Angular v15](https://angular.io/)
+* [Nebular UI Customising v10](https://akveo.github.io/nebular/)]
+* [Angular Service Worker v15](https://github.com/angular/angular)
 * [Angular Firebase library v9](https://www.npmjs.com/package/@angular/fire)
 
 ## :floppy_disk: Setup
@@ -46,7 +46,7 @@
 * `npm i` to install dependencies
 * `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app does automatically reload if you change any of the source files
-* `ng build` to create the build file
+* `npm run build` to create the build file
 * `firebase use --add` to link this app to firebase project already created, then `firebase deploy` to deploy app
 * See the app on the web at [https://angular-pwa-tictactoe.firebaseapp.com/](https://angular-pwa-tictactoe.firebaseapp.com/)
 
