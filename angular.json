@@ -28,6 +28,7 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
+              "./node_modules/@nebular/theme/styles/prebuilt/cosmic.css",
               "src/styles.scss"
             ],
             "scripts": [],
