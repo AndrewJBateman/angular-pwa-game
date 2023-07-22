@@ -36,10 +36,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v15](https://angular.io/)
-* [Nebular UI Customising v10](https://akveo.github.io/nebular/)]
-* [Angular Service Worker v15](https://github.com/angular/angular)
-* [Angular Firebase library v9](https://www.npmjs.com/package/@angular/fire)
+* [Angular v16](https://angular.io/)
+* [Nebular UI Customising v11](https://akveo.github.io/nebular/)]
+* [Angular Service Worker v16](https://github.com/angular/angular)
+* [Angular Firebase library v7](https://www.npmjs.com/package/@angular/fire)
 
 ## :floppy_disk: Setup
 
@@ -91,7 +91,7 @@ calculateWinner() {
 
 ## :clap: Inspiration
 
-* [Fireship: Youtube tutorial 'Angular for Beginners - Let's build a Tic-Tac-Toe PWA'](https://www.youtube.com/watch?v=G0bBLvWXBvc)]
+* [Fireship: Youtube tutorial 'Angular for Beginners - Let's build a Tic-Tac-Toe PWA'](https://www.youtube.com/watch?v=G0bBLvWXBvc)
 
 ## :file_folder: License
 
@@ -99,4 +99,4 @@ calculateWinner() {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@yahoo.com`
